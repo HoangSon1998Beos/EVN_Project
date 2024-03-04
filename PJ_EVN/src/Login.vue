@@ -8,7 +8,7 @@
               <v-form @submit.prevent="login">
                 <v-text-field v-model="username" label="Username"></v-text-field>
                 <v-text-field v-model="password" label="Password" type="password"></v-text-field>
-                <v-btn type="submit" color="primary">Login</v-btn>
+                <v-btn type="submit" color="primary">Login test</v-btn>
               </v-form>
             </v-card-text>
           </v-card>
