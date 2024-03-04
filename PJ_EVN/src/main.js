@@ -8,3 +8,8 @@ loadFonts()
 createApp(App)
   .use(vuetify)
   .mount('#app')
+import router from "./router.js";
+
+const app = createApp(App)
+app.use(router);
+createApp(App).use(router).mount('#app');
